@@ -1,0 +1,9 @@
+{
+  "InboundRules": [
+    { "protocol": "icmp", "source": "10.0.1.0/24", "action": "allow" },
+    { "protocol": "tcp", "port": 22, "source": "10.0.2.0/24", "action": "allow" }
+  ],
+  "OutboundRules": [
+    { "protocol": "all", "destination": "0.0.0.0/0", "action": "allow" }
+  ]
+}

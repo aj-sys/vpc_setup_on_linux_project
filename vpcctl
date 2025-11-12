@@ -1,0 +1,17 @@
+#!/bin/bash
+# vpcctl - Simple CLI controller for managing a virtual VPC on Linux namespaces
+
+case "$1" in
+  create)
+    sudo bash vpcctl.sh create
+    ;;
+  test)
+    sudo bash vpcctl.sh test
+    ;;
+  cleanup)
+    sudo bash vpcctl.sh cleanup
+    ;;
+  *)
+    echo "Usage: ./vpcctl {create|test|cleanup}"
+    ;;
+esac
