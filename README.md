@@ -126,8 +126,9 @@ ________________________________________
 
 📽️ Watch the full VPC simulation demo:
 
-  ### 👉 Demo Video:
-  ![vpc demo ](screenshots/vpc_demo.mp4)
+  ### 👉 Demo Video
+[![Watch Demo](screenshots/vpc-demo-thumbnail.png)](screenshots/vpc_demo.mp4)
+
 ________________________________________
 
 ## 🗂️ Repository Contents
