@@ -93,6 +93,7 @@ VPC_ON_LINUX_PROJECT/
 ├── vpcctl.sh
 └── screenshots/
     ├── architecture-diagram.png
+    ├── testing-network-between-namespaces.png
     ├── isolation-test.png
     ├── cleanup-success.png
     └── demo-video.mp4
